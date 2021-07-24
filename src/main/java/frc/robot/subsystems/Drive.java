@@ -132,7 +132,7 @@ public class Drive extends Subsystem {
 
     public void arcadeDrive(double xSpeed, double zRotation) {
 
-        differentialDrive1.arcadeDrive(xSpeed, -zRotation, false);
+        differentialDrive1.arcadeDrive(xSpeed, zRotation, true);
     }
 
     //DO NOT DELETE. ONLY USED WITH TURN TO ANGLE. DONT DELETE

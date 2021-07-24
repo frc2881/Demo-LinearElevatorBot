@@ -60,7 +60,7 @@ public class DriveWithJoysticks extends Command {
         double zRotation = (Robot.oi.getDriverRightX());
         double triggerLeft = (Robot.oi.getDriverTriggerLeft());
         double triggerRight = (Robot.oi.getDriverTriggerRight());
-        Robot.drive.arcadeDrive(xSpeed, zRotation);
+        Robot.drive.arcadeDrive(-xSpeed, zRotation);
         Robot.drive.hDrive(triggerLeft, triggerRight);
     }
 
