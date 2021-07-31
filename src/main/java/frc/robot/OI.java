@@ -217,11 +217,11 @@ public class OI {
     // MANIPULATOR Triggers
 
     public double getManipulatorTriggerLeft() {
-        return manipulator.getRawAxis(3);
+        return (manipulator.getRawAxis(3) + 1.0) / 2.0;
     }
 
     public double getManipulatorTriggerRight() {
-        return manipulator.getRawAxis(4);
+        return (manipulator.getRawAxis(4) + 1.0) / 2.0;
     }
 
     // MANIPULATOR Joysticks
