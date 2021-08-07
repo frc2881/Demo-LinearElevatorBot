@@ -1,0 +1,9 @@
+[
+  {
+    "artifact": "frcJava (in project LineElevate)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "LineElevate",
+    "language": "java"
+  }
+]

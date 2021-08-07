@@ -23,7 +23,7 @@ public Elevator(){
 }
 
 public void setArmSpeed(double speed){
-    leftArm.set(speed);
+    leftArm.set(speed*3);
     rightArm.set(speed);
 }
 
